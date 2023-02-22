@@ -1,0 +1,14 @@
+[
+  {
+    "key": "id",
+    "label": "Id"
+  },
+  {
+    "key": "name",
+    "label": "Name"
+  },
+  {
+    "key": "designation",
+    "label": "Designation"
+  }
+]

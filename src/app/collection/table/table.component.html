@@ -1,0 +1,14 @@
+<table class="ui celled table">
+  <thead>
+    <tr *ngIf="tableHeader != []">
+      <th *ngFor="let th of tableHeader">{{ th.label }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let td of tableData">
+      <td>{{ td.id }}</td>
+      <td>{{ td.name }}</td>
+      <td>{{ td.designation }}</td>
+    </tr>
+  </tbody>
+</table>
