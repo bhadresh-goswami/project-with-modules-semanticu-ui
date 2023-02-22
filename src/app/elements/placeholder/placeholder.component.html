@@ -1,0 +1,13 @@
+<h4>Place Holder Element</h4>
+<p>Let's create this element dynamic with custom structural directive!</p>
+<p>Number of Line: {{ lines | number : "3.0-3" }}</p>
+<p>Image Visibility: {{ imageShow }}</p>
+<div class="ui placeholder">
+  <div class="image header" *ngIf="imageShow">
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="paragraph">
+    <div class="line" *appTimes="data; let nm = name">{{ nm }}</div>
+  </div>
+</div>

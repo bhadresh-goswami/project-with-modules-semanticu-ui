@@ -1,1 +1,26 @@
-<p>elements-home works!</p>
+<h3>Elements Component</h3>
+<div class="ui form">
+  <div class="ui field">
+    <label>How many lines you want to see?</label>
+    <input
+      type="range"
+      min="numberOfLines"
+      max="10"
+      [value]="numberOfLines"
+      (change)="changeLines($event)"
+    />
+  </div>
+  <div class="ui field">
+    <label>Image Part need to show or not?</label>
+    <input
+      type="checkbox"
+      checked="imageVisibility"
+      (change)="changeImageVisibility($event)"
+    />
+  </div>
+</div>
+<app-placeholder
+  [imageShow]="imageVisibility"
+  [lines]="numberOfLines"
+  [data]="names"
+></app-placeholder>
