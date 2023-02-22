@@ -3,11 +3,5 @@
   { "id": "2", "name": "Komal Gosai", "designation": "Project Manager" },
   { "id": "3", "name": "Eeva Gosai", "designation": "Sr Developer" },
   { "id": "4", "name": "Eeshani Gosai", "designation": "Sr Developer" },
-  { "id": "5", "name": "Ramesh Gosai", "designation": "Developer" },
-  { "id": "6", "name": "Kapila Gosai", "designation": "Developer" },
-  { "id": "7", "name": "AAAA BBBBB", "designation": "Project Manager" },
-  { "id": "8", "name": "BBBBB CCCCC", "designation": "Sr Developer" },
-  { "id": "9", "name": "DDDDD AAAAAA", "designation": "Sr Developer" },
-  { "id": "10", "name": "CCCCCC DDDDDD", "designation": "Developer" },
-  { "id": "11", "name": "KKKKKK RRRRR", "designation": "Developer" }
+  { "id": "5", "name": "Ramesh Gosai", "designation": "Developer" }
 ]

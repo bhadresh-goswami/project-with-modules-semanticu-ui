@@ -1,2 +1,32 @@
 <app-divider> Table Collection </app-divider>
 <app-table [tableHeader]="tableHeader" [tableData]="tableData"></app-table>
+
+<app-divider>
+  <h3>Tab Menu</h3>
+</app-divider>
+<div class="ui grid">
+  <div class="four wide column">
+    <div class="ui vertical fluid tabular menu">
+      <a
+        routerLink="./"
+        [routerLinkActiveOptions]="{ exact: true }"
+        routerLinkActive="active"
+        class="item"
+      >
+        Biography
+      </a>
+      <a routerLink="./companies" routerLinkActive="active" class="item">
+        Companies
+      </a>
+      <a routerLink="./partners" routerLinkActive="active" class="item">
+        Partners
+      </a>
+    </div>
+  </div>
+  <div class="twelve wide stretched column">
+    <div class="ui segment">
+      <!-- Router outlet for the child component of collection module -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
