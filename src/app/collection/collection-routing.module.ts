@@ -4,7 +4,7 @@ import { CollectionHomeComponent } from './collection-home/collection-home.compo
 
 const routes: Routes = [
   {
-    path: 'collections',
+    path: 'collections-home',
     component: CollectionHomeComponent,
   },
 ];
