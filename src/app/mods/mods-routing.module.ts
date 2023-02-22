@@ -4,7 +4,7 @@ import { ModsHomeComponent } from './mods-home/mods-home.component';
 
 const routes: Routes = [
   {
-    path: 'mods-home',
+    path: '',
     component: ModsHomeComponent,
   },
 ];

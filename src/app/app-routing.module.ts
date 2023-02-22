@@ -5,6 +5,25 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {
+    path: 'collections-home',
+    loadChildren: () =>
+      import('./collection/collection.module').then((m) => m.CollectionModule),
+  },
+  {
+    path: 'elements-home',
+    loadChildren: () =>
+      import('./elements/elements.module').then((m) => m.ElementsModule),
+  },
+  {
+    path: 'views-home',
+    loadChildren: () =>
+      import('./views/views.module').then((m) => m.ViewsModule),
+  },
+  {
+    path: 'mods-home',
+    loadChildren: () => import('./mods/mods.module').then((m) => m.ModsModule),
+  },
+  {
     path: '',
     component: HomeComponent,
   },
